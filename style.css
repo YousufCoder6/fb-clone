@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    padding: 20px;
+}
+
+.left-section {
+    width: 500px;
+    padding-right: 32px;
+}
+
+.fb-logo {
+    color: #1877f2;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+}
+
+.fb-tagline {
+    font-size: 28px;
+    line-height: 32px;
+    color: #1c1e21;
+}
+
+.right-section {
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-card {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    outline: none;
+}
+
+.login-card input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.login-btn:hover {
+    background-color: #166fe5;
+}
+
+.forgot-link {
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 16px 0;
+    display: inline-block;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border: none;
+    border-bottom: 1px solid #dadde1;
+    margin-bottom: 20px;
+}
+
+.create-btn {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    width: auto;
+    transition: background-color 0.2s;
+}
+
+.create-btn:hover {
+    background-color: #36a420;
+}
