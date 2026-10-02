@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up for Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-body">
+
+    <div class="signup-container">
+        <h1 class="fb-signup-logo">facebook</h1>
+        
+        <div class="signup-card">
+            <div class="signup-header">
+                <h2>Create a new account</h2>
+                <p>It's quick and easy.</p>
+            </div>
+            <hr>
+            <form action="dashboard.html">
+                <div class="name-row">
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Surname" required>
+                </div>
+                <input type="text" placeholder="Mobile number or email address" required>
+                <input type="password" placeholder="New password" required>
+                
+                <div class="dob-label">Date of birth</div>
+                <div class="dob-row">
+                    <select><option>2</option></select>
+                    <select><option>Oct</option></select>
+                    <select><option>2026</option></select>
+                </div>
+
+                <div class="gender-label">Gender</div>
+                <div class="gender-row">
+                    <label><input type="radio" name="gender"> Female</label>
+                    <label><input type="radio" name="gender"> Male</label>
+                    <label><input type="radio" name="gender"> Custom</label>
+                </div>
+
+                <p class="legal-text">
+                    People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more</a>.
+                </p>
+                <p class="legal-text">
+                    By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>.
+                </p>
+
+                <div class="signup-btn-container">
+                    <button type="submit" class="btn-signup">Sign Up</button>
+                </div>
+            </form>
+            <div class="login-link-container">
+                <a href="index.html">Already have an account?</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
